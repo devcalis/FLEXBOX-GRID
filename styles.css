@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilo do conteúdo principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+}
+
+/* Exemplo de Flexbox */
+.flexbox-example {
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flex-item {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1; /* Faz com que os itens cresçam igualmente */
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Exemplo de Grid */
+.grid-example {
+    margin-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria três colunas de tamanho igual */
+    gap: 20px; /* Espaço entre os itens */
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-item {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
